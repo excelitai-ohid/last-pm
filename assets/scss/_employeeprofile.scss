@@ -1,0 +1,497 @@
+#mytask-layout{
+    .body{
+        .employee-profile{
+            .ep-section-wrapper{
+                padding: 30px 0;
+                color: #7b2182;
+                background: #fff;
+                box-shadow: 0 3px 6px #00000047;
+                border-radius: 10px;
+                margin: 20px 0;
+                
+                .ep-ac-info{
+                    .epa-single{                 
+                        .epa-info-thumb{
+                            img{
+                                width: 150px;
+                                height: 150px;
+                                object-fit: cover;
+                                border-radius: 100%;
+                            }
+                        }
+                        .epa-info-content{
+                            
+                          ul{
+                              li{
+                                  padding: 5px 0;
+                                  p{
+                                      margin-bottom: 0;                                     
+                                  }
+                              }
+                          }
+                        }
+    
+                    }
+                }
+                .ep-personal-data{
+                    padding: 10px 15px;
+                
+                    h6{
+                        margin-bottom: 30px;
+                    }
+                    .epa-single{
+                        .epa-info-content{
+                           ul{
+                               li{
+                                   p{
+                                    margin: 8px 0;
+                                    font-size: 14px;
+                                   }
+                               }
+                           }
+                        }
+                    }
+                }
+                .ep-personal-reference{
+                    padding: 10px 15px;
+                    .epa-single{
+                        .epa-info-content{
+                            ul{
+                                li{
+                                    p{
+                                        margin: 10px 0;
+                                        font-size: 14px;
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                    h6{
+                        margin: 30px 0 15px 0;
+                    }
+                }
+                .ep-et-info{
+                    h6{
+                        margin: 30px 0 15px 0;
+                    }
+                    .epa-single{
+                        .epa-info-content{
+                            ul{
+                                li{
+                                    margin: 10px 0;
+                                    p{
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .ep-promotion-wrapper{  
+                    
+                    .epa-single{
+                        .epa-info-content{
+                            ul{
+                                li{
+                                    p{
+                                        margin: 8px 0;
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    h6{
+                        margin: 30px 0 15px 0;
+                    }
+                }
+                .ep-assignment-wrapper{                
+                    h6{
+                        margin: 30px 0 15px 0;
+                    }
+                    .epa-single{
+                        .epa-info-content{
+                            ul{
+                                li{
+                                    p{
+                                        font-size: 14px;
+                                        margin: 10px 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+.edit-info-section{
+    .modal-dialog{  
+        .modal-content{
+            background: #FCE8FB;
+            padding: 50px;
+            border-radius: 30px;
+            .eac-form{
+                .e-account-single{
+                    margin: 10px 0;
+                    .e-account-text{
+                        span{
+                            color: #7B2182;
+                            font-size: 12px;
+                        }   
+                    }
+                    .e-account-input{
+                        .input-img{
+                            width: 100%;
+                            border: 1px solid#CCA8CF;
+                            border-radius: 10px;
+                            height: 100px;
+                            background: #fff;
+                            display: flex;
+                            align-items: center;
+                            padding: 15px;
+                            justify-content: space-between;
+                            .img-preview{
+                                width: 60px;
+                                height: 70px;
+                                border: 1px solid#7B2182;
+                                border-radius: 10px;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    overflow: hidden;
+                                    border-radius: 10px;
+                                }
+                            }
+                            .input-upload{
+                                background: #CCA8CF;
+                                width: 80px;
+                                border-radius: 16px;
+                                height: 24px;
+                                box-shadow: 0px 3px 6px 0 #FCE8FB inset;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                label{
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                        label{
+                            display: flex;
+                            align-items: center;
+                            justify-content: end;
+                            padding: 0 20px;
+                            svg{
+                                font-size: 20px;
+                                color: #CCA8CF;
+                            }
+                        }
+
+                    }
+            
+                    
+                }
+            }
+        }   
+
+    }
+
+}
+.edit-Details-section{
+    .modal-dialog{  
+        .modal-content{
+            background: #FCE8FB;
+            padding: 50px;
+            border-radius: 30px;
+            width: 100%;
+
+            .ep-form{
+                .e-account-single{
+                    margin: 10px 0;
+                    .e-account-text{
+                        span{
+                            color: #7B2182;
+                            font-size: 16px;
+                        }   
+                    }
+                    .e-account-input{
+                        .upload-img{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;                                      
+                            svg{
+                                font-size: 60px;
+                                color:#CCA8CF;
+                            }
+                        }
+                        .upload-dc{
+                            display: flex;
+                            align-items: center;
+                            justify-content: end;
+                            padding: 0 20px;
+                            svg{
+                                font-size: 24px;
+                                color: #CCA8CF;
+                            }
+                        }
+
+                    }
+
+                    
+                }
+                .reference-wrapper{
+                    margin-top: 40px;
+                    h6{
+                        color: #7B2182;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }   
+
+    }
+
+}
+.edit-eet-section{
+    .modal-dialog{  
+        .modal-content{
+            background: #FCE8FB;
+            padding: 50px;
+            border-radius: 30px;
+
+            .eet-form{
+                .eet-degree{                               
+                    h6{
+                        font-size: 18px;
+                        color: #7B2182;
+                    }
+                    .e-account-single{
+                        margin: 10px 0;
+                        .e-account-text{
+                            p{
+                                font-size: 16px;
+                                color: #7B2182;
+                                span{
+                                    display: block;
+                                    font-size: 10px;                                                 
+                                    
+                                }
+                            }
+                        }
+                        .e-account-input{
+                            .upload-certificate{
+                                display: flex;
+                                align-items: center;
+                                justify-content: end;
+                                svg{
+                                    font-size: 24px;
+                                    color: #CCA8CF;
+                                    padding: 0 15px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+                .eet-training{
+                    padding-top: 40px;
+                    h6{
+                        font-size: 18px;
+                        color: #7B2182;
+                    }
+                    .e-account-single{
+                        margin: 10px 0;
+                        .e-account-text{
+                            p{
+                                font-size: 16px;
+                                color: #7B2182;
+                                span{
+                                    display: block;
+                                    font-size: 10px;                                                 
+                                    
+                                }
+                            }
+                        }
+                        .e-account-input{
+                            .upload-certificate{
+                                display: flex;
+                                align-items: center;
+                                justify-content: end;
+                                svg{
+                                    font-size: 24px;
+                                    color: #CCA8CF;
+                                    padding: 0 15px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+                .eet-training{
+                    h6{
+                        font-size: 18px;
+                        color: #7B2182;
+                    }
+                    .e-account-single{
+                        margin: 10px 0;
+                        .e-account-text{
+                            p{
+                                font-size: 16px;
+                                color: #7B2182;
+                                span{
+                                    display: block;
+                                    font-size: 10px;                                                 
+                                    
+                                }
+                            }
+                        }
+                        .e-account-input{
+                            .upload-certificate{
+                                display: flex;
+                                align-items: center;
+                                justify-content: end;
+                                svg{
+                                    font-size: 24px;
+                                    color: #CCA8CF;
+                                    padding: 0 15px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+                .eet-experience{
+                    padding-top: 40px;
+                    h6{
+                        font-size: 18px;
+                        color: #7B2182;
+                    }
+                    .e-account-single{
+                        margin: 10px 0;
+                        .e-account-text{
+                            p{
+                                font-size: 16px;
+                                color: #7B2182;
+                                span{
+                                    display: block;
+                                    font-size: 10px;                                                 
+                                    
+                                }
+                            }
+                        }
+                        .e-account-input{
+                            .upload-certificate{
+                                display: flex;
+                                align-items: center;
+                                justify-content: end;
+                                svg{
+                                    font-size: 24px;
+                                    color: #CCA8CF;
+                                    padding: 0 15px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+
+            }
+
+
+        }   
+
+    }
+
+}
+.edit-Promotion-section{
+    .modal-dialog{  
+        .modal-content{
+            background: #FCE8FB;
+            padding: 50px;
+            border-radius: 30px;
+
+            .e-promotion-form{
+                .e-account-single{
+                    margin: 10px 0;
+                    .e-account-text{
+                        p{
+                            color: #7B2182;
+                            font-size: 16px;
+                        }   
+                    }
+                    .e-account-input{                                 
+                        .upload-dc{
+                            display: flex;
+                            align-items: center;
+                            justify-content: end;
+                            padding: 0 20px;
+                            svg{
+                                font-size: 24px;
+                                color: #CCA8CF;
+                            }
+                        }
+
+                    }
+
+                    
+                }
+
+            }
+            
+
+
+        }   
+
+    }
+
+}
+.edit-assignment-section{
+    .modal-dialog{  
+        .modal-content{
+            background: #FCE8FB;
+            padding: 50px;
+            border-radius: 30px;
+
+            .e-promotion-form{
+                .e-account-single{
+                    margin: 10px 0;
+                    .e-account-text{
+                        p{
+                            color: #7B2182;
+                            font-size: 16px;
+                        }   
+                    }
+                    .e-account-input{                                 
+                        .upload-dc{
+                            display: flex;
+                            align-items: center;
+                            justify-content: end;
+                            padding: 0 20px;
+                            svg{
+                                font-size: 24px;
+                                color: #CCA8CF;
+                            }
+                        }
+
+                    }
+
+                    
+                }
+
+            }
+            
+
+
+        }   
+
+    }
+
+}
+

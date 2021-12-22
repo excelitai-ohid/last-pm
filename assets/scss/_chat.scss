@@ -1,0 +1,78 @@
+#mytask-layout{
+    .main{
+        .body{
+          
+            .card-chat{
+                .chat-wrapper{
+                    background: #fff;
+                    border-radius: 10px;
+                    padding: 15px;
+                    
+                    .chat-individual{
+                        .chat-person-data{
+                            
+                            .cpd-top{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                .chat-person-thumb{
+                                    display: flex;
+                                    align-items: center;
+    
+                                    img{
+                                        width: 80px;
+                                        height: 80px;
+                                        border: 1px solid#CCA8CF;
+                                        border-radius: 100%;
+                                        margin-right: 15px;
+                                    }
+                                    h5{                                      
+                                        font-size: 20px;
+                                        span{
+                                            display: block;
+                                            font-size: 10px;
+                                            svg{
+                                                color: #0BB516;
+                                            }
+                                        }
+                                    }
+                                }
+                                .chat-person-icon{
+                                    a{
+                                        font-size: 40px;
+                                    }
+                                }
+                            }
+                            .cpd-bottom{
+                                ul{
+                                    display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    li{
+                                        list-style: none;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        img{
+                                            width: 30px;
+                                            height: 30px;
+                                            border-radius: 100%;
+                                            border: 1px solid#CCA8CF;
+                                        }
+                                        a{
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

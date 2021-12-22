@@ -1,0 +1,632 @@
+.emplyee-reports{
+    width: 100%;
+    align-items: center;
+    border: 1px solid rgba(228, 78, 215, 0.52);
+    padding: 20px 10px;
+    box-shadow: 2px 1px 21px -3px rgba(228, 78, 215, 0.52);
+}
+<<<<<<< HEAD
+.emplyee-reports-inset{
+    width: 100%;
+    align-items: center;
+    border: 1px solid #7B2182;
+    padding: 20px 10px;
+    box-shadow: 0px 1px 13px -1px #7b2182 inset;
+}
+.button-style-attendence{
+    background-color:white ;
+    color: #7b2182;
+    box-shadow: 0px 1px 7px -2px #7b2182 inset;
+    border-radius: 5px;
+    border: 1px solid #CCA8CF;
+}
+.button-style-attendence:focus{
+    color: #7b2182;
+    box-shadow: 0px 1px 7px -2px #7b2182 inset;
+    border-radius: 5px
+}
+.attendence-header{
+    border: 1px solid rgba(228, 78, 215, 0.52);
+    box-shadow: 3px 4px 7px 1px #7b2182;
+    border-radius: 5px;
+    padding: 5px;
+    color: #7b2182;
+    width: 250px;
+    margin: 0 auto;
+}
+.btn-attendence-submit{
+    border: 1px solid #CCA8CF;
+    background: #7B2182;
+    color: white;
+}
+.btn-attendence-submit:hover{
+    color: #fff;
+}
+=======
+
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+.data-filter{
+    width: 95%;
+    margin: auto;
+    padding: 30px 0px;
+    box-shadow: 2px 3px 24px 1px rgba(228, 78, 215, 0.52);
+    border-radius: 10px;
+<<<<<<< HEAD
+    padding: 30px 30px;
+=======
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+}
+
+input {
+    border: 1px solid rgba(228, 78, 215, 0.52);
+    border-radius: 5px;
+    padding: 3px 5px;
+    box-shadow: 2px 3px 24px 1px rgba(228, 78, 215, 0.52);
+    width: 190px;
+  }
+
+[type="date"] {
+    background:#FCE8FB url(/dist/assets/images/awesome-calendar-alt.svg)  97% 50% no-repeat ;
+<<<<<<< HEAD
+    color: #7B2182;
+=======
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+
+  label {
+	font-size: 1rem;
+	font-weight: 600;
+<<<<<<< HEAD
+    margin-right: 16px;
+    color: #7B2182;
+=======
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+}
+
+.dropdown-report{
+    border: 1px solid #7B2182;
+}
+<<<<<<< HEAD
+.date-style{
+    color: #7B2182;
+}
+=======
+
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+ul{
+    list-style: none;
+}
+
+<<<<<<< HEAD
+input[type="date"] {
+    position: relative;
+    padding: 10px;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #7B2182;
+    background: none;
+    z-index: 1;
+  }
+  
+  input[type="date"]:before {
+    color: #7B2182;
+    background: none;
+    display: block;
+    font-family: 'FontAwesome';
+    content: '\f073';
+    
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    right: 6px;
+    color: #7B2182;
+  }
+
+
+=======
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+ul .late{
+    color: red;
+}
+
+ul .working-time{
+    color: green;
+}
+
+ul .leave{
+    color: #FFB300;
+}
+
+ul .overtime{
+    color: #7B2182;
+}
+
+ul .holiday{
+    color: #1100FF;
+}
+
+.fa-square-full{
+    color: red;
+}
+
+<<<<<<< HEAD
+.report-style{
+    color: #7B2182;
+}
+=======
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+.yearly-circule{
+    position: relative;
+    top: -35%;
+    left: 31%;
+    color: #fff;
+}
+
+.yearly-graph-report{
+    font-size: 100px;
+    color: #7B2182;
+}
+
+<<<<<<< HEAD
+.circle {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-image: radial-gradient(#7b2182, #7b2182, #cca8cfb0);
+  }
+
+=======
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+.title{
+    transform: rotate(-90deg);
+    width: 50px;
+    height: 50px;
+<<<<<<< HEAD
+    margin-top: 10px;
+=======
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+}
+
+.report-box{
+    border: 1px solid rgba(228, 78, 215, 0.52);
+    padding: 30px 30px;
+    box-shadow: 2px 1px 21px -3px #7B2182;
+    border-radius: 10px;
+    margin-bottom: 50px;
+<<<<<<< HEAD
+    color: #7B2182;
+=======
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+}
+
+.weekly-report{
+    border: 1px solid rgba(228, 78, 215, 0.52);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+<<<<<<< HEAD
+.report-header{
+    padding: 3px;
+}
+=======
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+
+.monthly-report{
+    border: 1px solid rgba(228, 78, 215, 0.52);
+    display: flex;
+    align-items: center;
+<<<<<<< HEAD
+    /* padding: 30px 30px; */
+}
+.monthly-style{
+    margin-left: 10px;
+}
+.yearly-report{
+    border: 1px solid rgba(228, 78, 215, 0.52);
+    text-align: center;
+    /* padding: 20px 30px; */
+}
+.yearly-border{
+    border-left: 1px solid rgba(228, 78, 215, 0.52);
+}
+.day-report{
+    border-left: 1px solid rgba(228, 78, 215, 0.52);
+    padding: 4px;
+}
+.day-report:nth-child(1) {
+    border-left: none;
+  }
+.hour-report{
+    padding: 5px;
+}
+.week-col{
+    border-left: 1px solid rgba(228, 78, 215, 0.52);
+    margin: 0;
+    padding: 0;
+}
+.employee-date-select{
+    background-color: transparent;
+}
+.employee-date-select:focus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.modal-header-button{
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #CCA8CF ;
+    color: #CCA8CF ;
+}
+=======
+    padding: 30px 30px;
+}
+
+.yearly-report{
+    border: 1px solid rgba(228, 78, 215, 0.52);
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.day-report{
+    border-left: 1px solid rgba(228, 78, 215, 0.52);
+}
+
+.week-col{
+    border: 1px solid rgba(228, 78, 215, 0.52);
+    margin: 0;
+    padding: 0;
+}
+
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+.monthly-col{
+    border: 1px solid rgba(228, 78, 215, 0.52);
+    margin: 0;
+    padding: 0;
+<<<<<<< HEAD
+    border-top: none;
+    border-bottom: none;
+}
+.monthly-col:last-child{
+    border: none;
+}
+.monthly-col-border{
+    border-bottom: 1px solid rgba(228, 78, 215, 0.52);
+    text-align: center;
+    padding: 10px;
+}
+.daily-report{
+    border: 1px solid rgba(228, 78, 215, 0.52);
+  
+}
+.daily-style{
+    border-left: 1px solid rgba(228, 78, 215, 0.52);
+}
+.daily-style-inner{
+    border-right: 1px solid rgba(228, 78, 215, 0.52);
+}
+.progress{
+    height: 25px !important;
+}
+.bg-red{
+    background-color: #FF0000 !important;
+    color: #FF0000;
+}
+.bg-green{
+    background-color: #0BB516 !important;
+    color: #0BB516;
+}
+.bg-yellow{
+    background-color: #FFB300 !important;
+    color: #FFB300 ;
+}
+.bg-purple{
+    background-color: #7b2182 !important;
+    color: #7B2182;
+}
+.time-style{
+    text-align: center;
+}
+
+.day-col{
+    border-top: 1px solid rgba(228, 78, 215, 0.52);
+    padding: 3px;
+    border-right: none;
+    border-bottom: 1px solid rgba(228, 78, 215, 0.52);
+=======
+}
+
+.day-col{
+    border: 1px solid rgba(228, 78, 215, 0.52);
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e
+}
+
+.day-part{
+    border-right: 1px solid #7B2182;
+}
+<<<<<<< HEAD
+
+
+.chat-person-icon{
+    color: #CCA8CF;
+}
+.chat-person-name{
+    color: #7B2182;
+}
+.grp-chat{
+    color: #CCA8CF;
+    padding-top: 10px;
+}
+.clients-grp a{
+    color: #CCA8CF;
+    margin-top: 10px;
+}
+.chat-search-input{
+    box-shadow: none;
+    background: transparent;
+    border: none ;
+  
+}
+.chat-search-input:focus{
+    outline: none;
+}
+.chat-btn-icon{
+    color: #CCA8CF ;
+}
+.chat-search-btn{
+    border: 1px solid #CCA8CF;
+    border-radius: 20px;
+    margin-top: 18px;
+
+}
+
+.single-contact img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.chat-msg h6{
+    color:#7B2182;
+    font-size: 14px;
+}
+.chat-msg p{
+    color: #707070;
+    font-size: 10px;
+}
+.chat-img{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100%;
+}
+.currently-chatting{
+    font-size: 16px;
+    color: #7B2182;
+}
+
+.chat-wrapper{
+    border: 1px solid #CCA8CF;
+}
+
+.chat-options{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.chat-options a{
+    margin-right: 16px;
+}
+.chat-options .call{
+    color: #0BB516;
+}
+.chat-options .add{
+    color: #7B2182;
+}
+.chat-options .trash{
+    color: #FF0101;
+}
+.chat-person-data-border{
+    border-bottom: 1px solid #CCA8CF;
+}
+
+.single-chat-text-right{
+ display: flex;
+ padding: 10px 10px 10px 0px;
+ justify-content: center;
+ align-items: center;
+ width: 50%;
+}
+.single-chat-text-left{
+ display: flex;
+ padding: 10px 0px 10px 10px;
+ justify-content: center;
+ align-items: center;
+ width: 50%;
+}
+.chat-text{
+    background-color: #FCE8FB;
+    padding: 10px;
+    border-radius: 5px;
+    color: #939393;
+}
+.incoming{
+    background-color: transparent;
+    color: #939393;
+}
+
+.time{
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    color: #939393;
+}
+.send-options{
+    text-align: center;
+    background: #CCA8CF;
+    border-radius: 0px 0px 7px 7px;
+    padding: 12px;
+}
+.chat-text-send{
+    width: 85%;
+    box-shadow: none;
+    border: none;
+    background: #fff;
+    margin-right: 10px;
+}
+.dots{
+    margin-right: 10px;
+    color: #FCE8FB;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+.attachments{
+    color: #7B2182;
+    margin-right: 5px;
+    display: inline-block;
+    transform: rotate(-43deg);
+}
+.send-btn{
+    color: #0BB516;
+    display: inline-block;
+    transform: rotate(55deg);
+}
+.chat-box-wrapper {
+    padding: 0 !important;
+}
+.chat-individual{
+    padding: 15px;
+}
+
+.roadmap-timeline-december{
+    position: absolute;
+    top: -139px;
+    right: -14px;
+    width: 96px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmap-timeline-november{
+    position: absolute;
+    top: -125px !important;
+    right: 79px !important;
+    width: 97px !important;
+    height: 232px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.roadmap-timeline-october{
+    top: -84px !important;
+}
+.roadmap-timeline-august{
+    top: -84px !important;
+}
+.roadmap-timeline-june{
+    top: -50px !important;
+}
+.roadmap-timeline-may{
+    bottom: 447px !important;
+    left: 586px !important;
+}
+.roadmap-timeline-march{
+    bottom: 284px !important;
+    left: 367px !important;
+}
+.roadmap-timeline-february{
+    bottom: 212px !important;
+    left: 225px !important;
+}
+
+@media only screen and (max-width: 991px){
+    .card-chat-media {
+        -moz-transition: ease 0.1s;
+        -o-transition: ease 0.1s;
+        -webkit-transition: ease 0.1s;
+        transition: ease 0.1s;
+        left: 0;
+        position: static;
+        z-index: unset;
+    }
+    .chat-custom{
+        margin-top: 150px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .pt-roadmap-bg {
+      background-image: none !important;
+    }
+    .roadmap-timeline-jan{
+        bottom: 580px !important;
+        left: 50% !important;
+    }
+    .roadmap-timeline-feb{
+        bottom: 380px !important;
+        left: 50% !important;
+    }
+    .roadmap-timeline-march{
+        bottom:180px  !important;
+        left: 50% !important;
+    }
+    .roadmap-timeline-april{
+        bottom: -270px  !important;
+        left: 50% !important;
+    }
+    .roadmap-timeline-may{
+        bottom: -20px !important;
+        left: 50% !important;
+    }
+    .roadmap-timeline-june{
+        top: 670px !important;
+        left: 50% !important   
+    }
+    .roadmap-timeline-july{
+        bottom: -320px !important;
+        left: 50% !important;   
+    }
+    .roadmap-timeline-august{
+        left: 50% !important;
+        top: 920px  !important;   
+    }
+    .roadmap-timeline-september{
+        top: 1070px !important;
+        left: 50% !important;
+    }
+    .roadmap-timeline-october{
+        top: 1220px !important;
+        left: 50% !important;
+    }
+    .roadmap-timeline-november{
+        top: 1385px !important;
+        left: 50% !important;
+    }
+    .roadmap-timeline-december{
+        top: 1385px !important;
+        left: 50% !important;
+    }
+  }
+=======
+>>>>>>> 164a6faae1d0b4999ee2a87e65cc99cd8af8f44e

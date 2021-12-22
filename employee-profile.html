@@ -1,0 +1,2539 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <title>:: Excel IT AI :: Members</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico">  <!-- Favicon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- project css file  -->
+    <link rel="stylesheet" href="assets/css/my-task.style.min.css">
+    <!-- custom css file -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<div id="mytask-layout" class="theme-indigo">
+       <!-- sidebar -->
+       <div class="sidebar px-4 py-4 py-md-5 me-0">
+        <div class="d-flex flex-column h-100">
+            <a href="index.html" class="mb-0 brand-icon">
+                <span class="logo-icon">
+                    <img class="img-fluid" src="assets/images/logo/logoicon.png" alt="logo">
+                </span>
+                <span class="logo-text">Excel IT AI Management</span>
+            </a>
+            <!-- Menu: main ul --> 
+            <ul class="menu-list flex-grow-1 mt-3">
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#dashboard-Components" href="#">
+                        <i class="icofont-home fs-5"></i> <span>Dashboard</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="dashboard-Components">
+                        <li><a class="ms-link" href="index.html"> <span>Hr Dashboard</span></a></li>
+                        <li><a class="ms-link" href="project-dashboard.html"> <span>Project Dashboard</span></a></li>
+                    </ul>
+                </li>
+                <li  class="collapsed">
+                    <a class="m-link active"  data-bs-toggle="collapse" data-bs-target="#project-Components" href="#">
+                        <i class="icofont-briefcase"></i><span>Projects</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse show" id="project-Components">
+                        <li><a class="ms-link active" href="projects.html"><span>Projects</span></a></li>
+                        <li><a class="ms-link" href="addproject.html"><span>Add Project</span></a></li>
+                        <li><a class="ms-link" href="viewproject.html"><span>View Project</span></a></li>
+                        <li><a class="ms-link" href="timesheet.html"><span>Project Timeline</span></a></li>
+                        <li><a class="ms-link" href="team-leader.html"><span>Project Activity</span></a></li>
+                        
+                    </ul>
+                </li>               
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#tikit-Components" href="#"><i
+                            class="icofont-tasks"></i> <span>Task</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="tikit-Components">
+                        <li><a class="ms-link" href="tickets.html"> <span>Tickets View</span></a></li>
+                        <li><a class="ms-link" href="ticket-detail.html"> <span>Ticket Detail</span></a></li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#tikit-Components" href="#"><i
+                            class="icofont-ticket"></i> <span>Tickets</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="tikit-Components">
+                        <li><a class="ms-link" href="tickets.html"> <span>Tickets View</span></a></li>
+                        <li><a class="ms-link" href="ticket-detail.html"> <span>Ticket Detail</span></a></li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#client-Components" href="#"><i
+                            class="icofont-user-male"></i> <span>Our Clients</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="client-Components">
+                        <li><a class="ms-link" href="clients.html"> <span>Clients</span></a></li>
+                        <li><a class="ms-link" href="clientprofile.html"> <span>Client Profile</span></a></li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#emp-Components" href="#"><i
+                            class="icofont-users-alt-5"></i> <span>Employees</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="emp-Components">
+                        <li><a class="ms-link" href="members.html"> <span>Employee</span></a></li>
+                        <li><a class="ms-link" href="employee-profile.html"> <span>Employee Profile</span></a></li>
+                        <li><a class="ms-link" href="viewemployee.html"> <span>View all Employee</span></a></li>
+                    </ul>
+                </li>           
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-Componentsone" href="#"><i
+                            class="icofont-ui-calculator"></i> <span>Attendance</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="menu-Componentsone">
+                        <li><a class="ms-link" href="attendance.html"><span>Attendance</span> </a></li>
+                        <li><a class="ms-link" href="employee-reports.html"><span>Report</span> </a></li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#payroll-Components" href="#">
+                        <i class="icofont-users-alt-5"></i>  <span>Payroll</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span> </a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="payroll-Components">
+                        <li><a class="ms-link" href="salaryslip.html"><span>Employee Salary</span> </a></li>
+                        
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" href="department.html"><i class="icofont-users-alt-5"> </i> <span>Department</span>  </a>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#payroll-Components" href="#"><i
+                            class="icofont-users-alt-5"></i> <span>Project Budget</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="payroll-Components">
+                        <li><a class="ms-link" href="salaryslip.html"><span>Employee Salary</span> </a></li>
+                        
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#app-Components" href="#">
+                        <i class="icofont-contrast"></i> <span>Official Calendar</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="app-Components">
+                        <li><a class="ms-link" href="calendar.html"> <span>Calander</span></a></li>
+                        <li><a class="ms-link" href="chat.html"><span>Chat App</span></a></li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#app-Components" href="#">
+                        <i class="icofont-contrast"></i> <span>Chat</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="app-Components">
+                        <li><a class="ms-link" href="calendar.html"> <span>Calander</span></a></li>
+                        <li><a class="ms-link" href="chat.html"><span>Chat App</span></a></li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#app-Components" href="#">
+                        <i class="icofont-contrast"></i> <span>Voice Call</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="app-Components">
+                        <li><a class="ms-link" href="calendar.html"> <span>Calander</span></a></li>
+                        <li><a class="ms-link" href="chat.html"><span>Chat App</span></a></li>
+                    </ul>
+                </li>
+
+               
+            </ul>
+        </div>
+        </div>
+   
+
+
+    <!-- main body area -->
+    <div class="main px-lg-4 px-md-4">
+
+        <!-- Body: Header -->
+        <div class="header">
+            <nav class="navbar py-4">
+                <div class="container-xxl">
+
+                    <!-- header rightbar icon -->
+                    <div class="h-right d-flex align-items-center mr-5 mr-lg-0 order-1">
+                        <div class="dropdown notifications zindex-popover">
+                            <a class="nav-link dropdown-toggle pulse" href="#" role="button" data-bs-toggle="dropdown">
+                                <i class="icofont-alarm"></i> 
+                                <span class="notification-icon-bg">3</span>                                                                           
+                            </a>
+                            <div id="NotificationsDiv" class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-sm-end p-0 m-0">
+                                <div class="card border-0 w380">
+                                    <div class="card-header border-0 p-3">
+                                        <h5 class="mb-0 font-weight-light d-flex justify-content-between">
+                                            <span>Notifications</span>
+                                            <span class="badge text-white">11</span>
+                                        </h5>
+                                    </div>
+                                    <div class="tab-content card-body">
+                                        <div class="tab-pane fade show active">
+                                            <ul class="list-unstyled list mb-0">
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="assets/images/xs/avatar1.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Dylan Hunter</span> <small>2MIN</small></p>
+                                                            <span class="">Added  2021-02-19 my-Task ui/ux Design <span class="badge bg-success">Review</span></span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <div class="avatar rounded-circle no-thumbnail">DF</div>
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Diane Fisher</span> <small>13MIN</small></p>
+                                                            <span class="">Task added Get Started with Fast Cad project</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle sm" src="assets/images/xs/avatar3.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Andrea Gill</span> <small>1HR</small></p>
+                                                            <span class="">Quality Assurance Task Completed</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle sm" src="assets/images/xs/avatar5.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Diane Fisher</span> <small>13MIN</small></p>
+                                                            <span class="">Add New Project for App Developemnt</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle sm" src="assets/images/xs/avatar6.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Andrea Gill</span> <small>1HR</small></p>
+                                                            <span class="">Add Timesheet For Rhinestone project</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle sm" src="assets/images/xs/avatar7.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Zoe Wright</span> <small class="">1DAY</small></p>
+                                                            <span class="">Add Calander Event</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a class="card-footer text-center border-top-0" href="#"> View all notifications</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown user-profile ml-2 ml-sm-3 d-flex align-items-center zindex-popover">
+                            <div class="u-info me-2">
+                                <p class="mb-0 text-end line-height-sm "><span class="font-weight-bold">Dylan Hunter</span></p>
+                                <small>Admin Profile</small>
+                            </div>
+                            <a class="nav-link dropdown-toggle pulse p-0" href="#" role="button" data-bs-toggle="dropdown" data-bs-display="static">
+                                <img class="avatar lg rounded-circle img-thumbnail" src="assets/images/profile_av.png" alt="profile">
+                            </a>
+                            <div class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-end p-0 m-0">
+                                <div class="card border-0 w280">
+                                    <div class="card-body pb-0">
+                                        <div class="d-flex py-1">
+                                            <img class="avatar rounded-circle sm" src="assets/images/profile_av.png" alt="profile">
+                                            <div class="flex-fill ms-3">
+                                                <p class="mb-0"><span class="font-weight-bold">Dylan Hunter</span></p>
+                                                <small class="">Dylan.hunter@gmail.com</small>
+                                            </div>
+                                        </div>
+                                        
+                                        <div><hr class="dropdown-divider border-dark"></div>
+                                    </div>
+                                    <div class="list-group m-2 ">
+                                        <a href="task.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-tasks fs-5 me-3"></i>My Task</a>
+                                        <a href="members.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-ui-user-group fs-6 me-3"></i>members</a>
+                                        <a href="ui-elements/auth-signin.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-logout fs-6 me-3"></i>Signout</a>
+                                        <div><hr class="dropdown-divider border-dark"></div>
+                                        <a href="ui-elements/auth-signup.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-contact-add fs-5 me-3"></i>Add personal account</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu toggler -->
+                    <button class="navbar-toggler p-0 border-0 menu-toggle order-3" type="button" data-bs-toggle="collapse" data-bs-target="#mainHeader">
+                        <span class="fa fa-bars"></span>
+                    </button>
+
+                    <!-- main menu Search-->
+                    <div class="border-0 col-lg-4 col-md-4 col-sm-12 col-12 mb-3 mb-md-0 ">
+                        <div class="input-group flex-nowrap input-group-lg">
+                            <button type="button" class="input-group-text" id="addon-wrapping"><i class="fa fa-search"></i></button>
+                            <input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="addon-wrapping">
+                            <button type="button" class="input-group-text add-member-top" id="addon-wrappingone" data-bs-toggle="modal" data-bs-target="#addUser"><i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+        <!-- Body: Body -->
+        <div class="body d-flex py-lg-3 py-md-2">
+            <div class="container-xxl">
+                <div class="row align-items-center">
+                    <div class="border-0 mb-4">
+                        <div class="card-header py-3 no-bg bg-transparent d-flex align-items-center px-0 justify-content-center border-bottom flex-wrap">
+                            <h6> Employee Profile </h6>
+                        </div>
+                    </div>
+                </div> <!-- Row end  -->
+                <div class="employee-profile">
+                    <div class="ep-section-wrapper">
+                        <div class="row align-items-center ep-ac-info">
+                            <div class="col-lg-6">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3 col-sm-12">
+                                        <div class="epa-single">
+                                            <div class="epa-info-thumb d-flex justify-content-center">
+                                                <img src="assets/images/clients/avatar1.jpg">
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->
+                                    <div class="col-md-8 col-sm-12">
+                                        <div class="epa-single">
+                                            <div class="epa-info-content">
+                                                <ul>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p>Name</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>Mr. Joe Biden Matha mota</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row">
+                                                        <div class="col-6">
+                                                            <p>ID</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>sdfsd215858</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row">
+                                                        <div class="col-6">
+                                                            <p>User Name</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>sdfse</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row">
+                                                        <div class="col-6">
+                                                            <p>Designation</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>BackEnd Developer</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->
+                                </div><!-- row end -->
+                            </div> <!-- col end -->
+                            <div class="col-lg-5">
+                                <div class="row align-items-center">
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="epa-single">
+                                            <div class="epa-info-content">
+                                                <ul>
+                                                    <li class="row">
+                                                        <div class="col-6">
+                                                            <p>Status</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>active</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row">
+                                                        <div class="col-6">
+                                                            <p>Password</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>**********</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row">
+                                                        <div class="col-6 ">
+                                                            <p>Upload CV</p>
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <p>fdasd.pdf</p>
+                                                        </div>
+                                                    </li>
+        
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->                         
+                                </div><!-- row end -->
+                            </div> <!-- col end -->
+                            <div class="col-lg-1">
+                                <div class="row align-items-center">
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="epa-single">
+                                            <div class="epa-ed">
+                                                <a href="#" class="ac-btn" data-bs-toggle="modal" data-bs-target="#EditAcInfo" ><i class="icofont-edit text-success"></i></a>
+                                                <a href="#"> <i class="icofont-ui-delete text-danger"></i> </i></a>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->                         
+                                </div><!-- row end -->
+                            </div> <!-- col end -->
+                        </div>
+                    </div> <!-- row end -->
+                    <div class="ep-section-wrapper">
+                        <div class="row  align-items-center">
+                            <div class="col-lg-11">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="row ep-personal-data">
+                                            <h6 class="common-profile-heading">Personal Details </h6>
+                                            <div class="col-md-6">
+                                                <div class="epa-single">
+                                                    <div class="epa-info-content">
+                                                        <ul>
+                                                            <li class="row align-items-center">
+                                                                <div class="col-6">
+                                                                    <p>Father's Name</p>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <p>Mr. Pong Pong</p>
+                                                                </div>
+                                                            </li>                                        
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- col end -->
+                                            <div class="col-md-6">
+                                                <div class="epa-single">
+                                                    <div class="epa-info-content">
+                                                        <ul>
+                                                            <li class="row">
+                                                                <div class="col-6">
+                                                                    <p>Mother's Name</p>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <p>Mrs. Lorem, ipsum dolor.</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- col end -->
+                                        </div>
+                                        <div class="row ep-personal-data">
+                                            <div class="col-md-6">
+                                                <div class="epa-single">
+                                                    <div class="epa-info-content">
+                                                        <ul>                                                        
+                                                            <li class="row align-items-center">
+                                                                <div class="col-6">
+                                                                    <p>Present Address</p>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <p> 14/2, Alhaz Samsuddin mension, Eskaton, Magbazar, Dhaka, Bangladesh</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row align-items-center">
+                                                                <div class="col-6 ">
+                                                                    <p>Permanent Address</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p> Lorem ipsum dolor sit amet. feni, Noakhali, cummilla, Bangladesh,</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row align-items-center">
+                                                                <div class="col-6 ">
+                                                                    <p>About Employee</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p> Lorem ipsum dolor sit amet conselectus quos reiciendis cumque sit illum!</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row align-items-center">
+                                                                <div class="col-6 ">
+                                                                    <p>Gender</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>Male</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row align-items-center">
+                                                                <div class="col-6 ">
+                                                                    <p>Phone No</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>012345678900</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row align-items-center">
+                                                                <div class="col-6 ">
+                                                                    <p>Emergency Contact</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>012345678900</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row align-items-center">
+                                                                <div class="col-6 ">
+                                                                    <p>Birth Certificate No</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>0998/345678900</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row align-items-center">
+                                                                <div class="col-6 ">
+                                                                    <p>Joining Date</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>dd/mm/yy</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- col end -->
+                                            <div class="col-md-6">
+                                                <div class="epa-single">
+                                                    <div class="epa-info-content">
+                                                        <ul>
+                                                            <li class="row">
+                                                                <div class="col-6">
+                                                                    <p>Date of Birth </p>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <p> dd/mm/yy </p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row">
+                                                                <div class="col-6 ">
+                                                                    <p>Merital Status</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>Married</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row">
+                                                                <div class="col-6 ">
+                                                                    <p>Religion</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>Islam</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row">
+                                                                <div class="col-6 ">
+                                                                    <p>E-mail</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>example@gmail.com</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row">
+                                                                <div class="col-6 ">
+                                                                    <p>NID No</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>025-11859847-52</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row">
+                                                                <div class="col-6 ">
+                                                                    <p>Passport No</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>025-11859847-52</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="row">
+                                                                <div class="col-6 ">
+                                                                    <p>Bank Account No</p>
+                                                                </div>
+                                                                <div class="col-6 ">
+                                                                    <p>025-11859847-52</p>
+                                                                </div>
+                                                            </li>
+                                                    
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- col end -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center ep-personal-reference">
+                                    <h6 class="common-profile-heading" >Reference </h6>
+                                    <div class="col-md-6">
+                                        <div class="epa-single">
+                                            <div class="epa-info-content">
+                                                <ul>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p>Reference No 1</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, harum!</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p>Reletion With Referel</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>Lorem, ipsum.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6 ">
+                                                            <p>Reference Contact No</p>
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <p>012345678902</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->
+                                    <div class="col-md-6">
+                                        <div class="epa-single">
+                                            <div class="epa-info-content">
+                                                <ul>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p>Reference No 2</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, harum!</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p>Reletion With Referel</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>Lorem, ipsum.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6 ">
+                                                            <p>Reference Contact No</p>
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <p>012345678902</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->
+                                </div>
+                            </div>
+                            <div class="col-lg-1">
+                                <div class="row align-items-center">
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="epa-single">
+                                            <div class="epa-ed">
+                                                <a href="#" class="ac-btn" data-bs-toggle="modal" data-bs-target="#EditDetailsInfo"><i class="icofont-edit text-success"></i></a>
+                                                <a href="#"> <i class="icofont-ui-delete text-danger"></i> </i></a>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->                         
+                                </div><!-- row end -->
+                            </div> <!-- col end -->
+
+                        </div><!-- row end -->
+                    </div> <!-- ep-ac-info end -->
+                    <div class="row  align-items-center ep-section-wrapper">
+                        <h6 class="common-profile-heading" > Education and Training Info </h6>
+                        <div class="col-lg-11">
+                            <div class="ep-et-info">
+                                <h6 class="common-profile-heading" >Last Achieved Educational Degree</h6>
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <div class="epa-single">
+                                            <div class="epa-info-content">
+                                                <ul>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p>Degree Name</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>Bsc(Eng) in Computer Science and Engineering</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p> University/Institute Name </p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p> University of Torento</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p> Major Name </p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p> Computer Science and Engineering </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p> Upload Certificate </p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p> Certificate.pdf/jpge/png </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p> Achieved Reward <span>If any</span> </p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p> N/A </p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->
+                                    <div class="col-md-6">
+                                        <div class="epa-single">
+                                            <div class="epa-info-content">
+                                                <ul>
+                                                    <li class="row">
+                                                        <div class="col-6">
+                                                            <p>Result</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p> 3.75 </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row">
+                                                        <div class="col-6">
+                                                            <p>Passing Year </p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p> 2021 </p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->
+                                </div>
+                                <div class="row align-items-center ">
+                                    <h6 class="common-profile-heading" > Training </h6>
+                                    <div class="col-md-6">
+                                        <div class="epa-single">
+                                            <div class="epa-info-content">
+                                                <ul>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p> Training Name </p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p> Web Design </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p> Institute Name </p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p> Bangladesh Technical Board </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6 ">
+                                                            <p> Training Period </p>
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <p>3 days in a Week</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6 ">
+                                                            <p> Upload Document </p>
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <p> Training certificate.pdf (2.33kb) </p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->
+                                    <div class="col-md-6">
+                                        <div class="epa-single">
+                                            <div class="epa-info-content">
+                                                <ul>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p>Topics</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>html, CSS</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p>Duraition</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>3 month</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6 ">
+                                                            <p>Location</p>
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <p>Dhaka, KawranBazar</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>                           
+                                    </div> <!-- col end -->
+                                </div>
+                                <div class="row align-items-center ">
+                                    <h6 class="common-profile-heading" > Exprience Name </h6> 
+                                    <div class="col-md-6">
+                                        <div class="epa-single">
+                                            <div class="epa-info-content">
+                                                <ul>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p> Company Name </p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p> Addd IT Limited </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p> Exprience Area </p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p> Web Design </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6 ">
+                                                            <p> Form Date</p>
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <p> dd/mm/yy </p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6 ">
+                                                            <p> Company Location </p>
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <p> Dhanmondi, Dhaka</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->
+                                    <div class="col-md-6">
+                                        <div class="epa-single">
+                                            <div class="epa-info-content">
+                                                <ul>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p>Responsibilty</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>Web Site Design</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6">
+                                                            <p>Duraition</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>2 years 3 month</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6 ">
+                                                            <p>End Date</p>
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <p>dd/mm/yy</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="row align-items-center">
+                                                        <div class="col-6 ">
+                                                            <p>Upload Document</p>
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <p> Experience certificate.pdf (2.33kb)  </p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> <!-- col end -->
+                                </div>
+                            </div>
+                        </div>  <!-- col end -->
+                        <div class="col-lg-1">
+                            <div class="row align-items-center">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="epa-single">
+                                        <div class="epa-ed">
+                                            <a href="#" class="ac-btn" data-bs-toggle="modal" data-bs-target="#editEducation"><i class="icofont-edit text-success"></i></a>
+                                            <a href="#"> <i class="icofont-ui-delete text-danger"></i> </i></a>
+                                        </div>
+                                    </div>
+                                </div> <!-- col end -->                         
+                            </div><!-- row end -->
+                        </div> <!-- col end -->
+                    </div><!-- row end -->
+                    <div class="row  align-items-center ep-section-wrapper">
+                        <h6 class="common-profile-heading"> Promotion Info </h6>
+                        <div class="col-lg-11">
+                            <div class="row align-items-center ep-promotion-wrapper">
+                                <div class="col-md-6">
+                                    <div class="epa-single">
+                                        <div class="epa-info-content">
+                                            <ul>
+                                                <li class="row align-items-center">
+                                                    <div class="col-6">
+                                                        <p>Promotion Letter Issure Date</p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p>dd/mm/yy</p>
+                                                    </div>
+                                                </li>
+                                                <li class="row align-items-center">
+                                                    <div class="col-6">
+                                                        <p> Previous Designation </p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p> Jr. Web deginer </p>
+                                                    </div>
+                                                </li>
+                                                <li class="row align-items-center">
+                                                    <div class="col-6">
+                                                        <p> Approval Doc Attachment </p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p> Promotion letter.pdf (2.33kb)  </p>
+                                                    </div>
+                                                </li>
+                                                <li class="row align-items-center">
+                                                    <div class="col-6">
+                                                        <p> Previous Basic </p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p> BDT 27k  </p>
+                                                    </div>
+                                                </li>
+                                                <li class="row align-items-center">
+                                                    <div class="col-6">
+                                                        <p> Previously Received Salary </p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p> BDT 35k  </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> <!-- col end -->
+                                <div class="col-md-6">
+                                    <div class="epa-single">
+                                        <div class="epa-info-content">
+                                            <ul>
+                                                <li class="row">
+                                                    <div class="col-6">
+                                                        <p>Effective Date </p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p>dd/mm/yy </p>
+                                                    </div>
+                                                </li>
+                                                <li class="row">
+                                                    <div class="col-6">
+                                                        <p> Promoted Designation </p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p> Web designer </p>
+                                                    </div>
+                                                </li>
+                                                <li class="row">
+                                                    <div class="col-6">
+                                                        <p> Increment Amount </p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p>BDT 5000 only</p>
+                                                    </div>
+                                                </li>
+                                                <li class="row">
+                                                    <div class="col-6">
+                                                        <p> New Basic </p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p> BDT 30k  </p>
+                                                    </div>
+                                                </li>
+                                                <li class="row">
+                                                    <div class="col-6">
+                                                        <p> New Gross Salary </p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p> BDT 35k  </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> <!-- col end -->
+                            </div>
+
+                        </div>  <!-- col end -->
+                        <div class="col-lg-1">
+                            <div class="row align-items-center">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="epa-single">
+                                        <div class="epa-ed">
+                                            <a href="#" class="ac-btn" data-bs-toggle="modal" data-bs-target="#editPromotion"><i class="icofont-edit text-success"></i></a>
+                                            <a href="#"> <i class="icofont-ui-delete text-danger"></i> </i></a>
+                                        </div>
+                                    </div>
+                                </div> <!-- col end -->                         
+                            </div><!-- row end -->
+                        </div> <!-- col end -->
+                    </div><!-- row end -->
+                    <div class="row  align-items-center ep-section-wrapper">
+                        <h6 class="common-profile-heading" > Assign training Info </h6>
+                        <div class="col-lg-11">
+                            <div class="row align-items-center ep-assignment-wrapper">
+                                <h6 class="common-profile-heading" >Training Assignment</h6>
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="epa-single">
+                                                <div class="epa-info-content">
+                                                    <ul>
+                                                        <li class="row align-items-center">
+                                                            <div class="col-6">
+                                                                <p> Training Program Name </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p>Digital Marketing</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- col end -->
+                                        <div class="col-md-6">
+                                        </div> <!-- col end -->
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="epa-single">
+                                                <div class="epa-info-content">
+                                                    <ul>
+                                                        <li class="row align-items-center">
+                                                            <div class="col-6">
+                                                                <p> Training Start Date </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p>dd/mm/yy </p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- col end -->
+                                        <div class="col-md-6">
+                                            <div class="epa-single">
+                                                <div class="epa-info-content">
+                                                    <ul>
+                                                        <li class="row align-items-center">
+                                                            <div class="col-6">
+                                                                <p> End Date </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p>dd/mm/yy </p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- col end -->
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="epa-single">
+                                                <div class="epa-info-content">
+                                                    <ul>
+                                                        <li class="row align-items-center">
+                                                            <div class="col-6">
+                                                                <p> Duration  </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p> 3 days </p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- col end -->
+                                        <div class="col-md-6">
+                                            <div class="epa-single">
+                                                <div class="epa-info-content">
+                                                    <ul>
+                                                        <li class="row align-items-center">
+                                                            <div class="col-6">
+                                                                <p> Location </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p> Moghbazar, Dhaka </p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- col end -->
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="epa-single">
+                                                <div class="epa-info-content">
+                                                    <ul>
+                                                        <li class="row align-items-center">
+                                                            <div class="col-6">
+                                                                <p> Approval Doc Attachment  </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p> No document attached </p>
+                                                            </div>
+                                                            <div class="col-6"></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- col end -->
+                                        <div class="col-md-6"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="epa-single">
+                                                <div class="epa-info-content">
+                                                    <ul>
+                                                        <li class="row align-items-center">
+                                                            <div class="col-6">
+                                                                <p> About Training </p>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p> Lorem Ipsum is simply dummy text of the 
+                                                                    printing and typesetting industry. Lorem
+                                                                    Ipsum has been the industry's standard
+                                                                    dummy text ever since the 1500s </p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <!-- col end -->
+                                        <div class="col-md-6"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  <!-- col end -->
+                        <div class="col-lg-1">
+                            <div class="row align-items-center">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="epa-single">
+                                        <div class="epa-ed">
+                                            <a href="#" class="ac-btn" data-bs-toggle="modal" data-bs-target="#editAssignment"><i class="icofont-edit text-success"></i></a>
+                                            <a href="#"> <i class="icofont-ui-delete text-danger"></i> </i></a>
+                                        </div>
+                                    </div>
+                                </div> <!-- col end -->                         
+                            </div><!-- row end -->
+                        </div> <!-- col end -->
+                    </div><!-- row end -->
+                    <div class="row ">
+                        <div class="col-12">
+                            <div class="employee-main-btn">
+                                <ul>                                                              
+                                    <li><button> Update</button></li>
+                                    <li><button>Finished</button></li>
+                                </ul>                                                              
+                            </div>
+                        </div>
+                    </div>
+                    <!-- btn end -->   
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+
+
+    <!-- Edit Employee Info start -->
+    <section class="edit-info-section">
+        <div class="modal fade" id="EditAcInfo" tabindex="-1"  aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl ">
+                <div class="modal-content">
+                    <div class="popup-btn-top">
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close"> <i class="fas fa-times"></i> </button>
+                    </div>
+                    <div class="modal-body" >
+                        <form class="eac-form">
+                            <!-- employee name start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Employee Name</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- employee name end -->
+                            <!-- employee ID start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Employee ID</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- employee Designation end -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Designation</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Status</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- employee User Name end -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>User Name</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 ">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Password</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- employee  User Name end -->
+                            <!-- employee Upload image end -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Upload Images</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <div class="input-img">
+                                                <div class="img-preview">
+                                                    <img id="img-preview" >
+                                                </div>
+                                                <div class="input-upload">
+                                                    <label for="upload-img" class="upload-img"> Change </label>
+                                                    <input id="upload-img" type="file" accept="image/*" onchange="showPreview(event);" style="display: none;">
+                                                </div>                                           
+                                            </div>                                  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 ">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Upload CV</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <label for="upload-dc" class="input-dc-common  upload-dc"> <i class="fas fa-upload"></i> </label>
+                                            <input id="upload-dc" class="" type="file" style="display: none;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </form>   
+                    </div>
+                    <div class="popup-btn-bottom">
+                        <button type="button" class="">Save</button>
+                    </div> 
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- Edit Employee Info End -->
+    <!-- Edit Employee Details start -->
+    <section class="edit-Details-section">
+        <div class="modal fade" id="EditDetailsInfo" tabindex="-1"  aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl ">
+                <div class="modal-content">
+                    <div class="popup-btn-top">
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close"> <i class="fas fa-times"></i> </button>
+                    </div>
+                    <div class="modal-body" >
+                        <form class="ep-form">
+                            <!-- employee name start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Employee Name</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- employee name end -->                                        
+                            <!-- father's name start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Father's Name</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 ">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Mother's Name</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- father's name end -->  
+                            <!-- Present Address start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span> Present Address</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- Present Address end -->                                      
+                            <!-- Present Address start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span> Permanent Address</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- Present Address end -->   
+                            <!-- About Employee start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>About Employee</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <textarea class="textarea-common"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Date of Birth</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="date" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- About Employee end -->                                     
+                            <!-- gender start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Gender</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <select class="select-common">
+                                                <option>Male</option>
+                                                <option>Female</option>
+                                                <option>Others</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Marital Status</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <select class="select-common">
+                                                <option>Married</option>
+                                                <option>Unmarried</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Religion</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <select class="select-common">
+                                                <option>Married</option>
+                                                <option>Unmarried</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- gender end -->    
+                            <!-- Nid start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Emmergency Contact</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>NID No</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- Nid No end -->                                  
+                            <!-- Phone No start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Phone No</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>E-mail</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- Birth Certificate  -->                                  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Birth Certificate No</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Passport No</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- reference  -->                                  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Reference No 1</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <textarea class="textarea-common"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span>Reference No 2</span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <textarea class="textarea-common"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- reference  -->                                  
+                            <!-- reference wrapper -->                                  
+                            <div class="row align-items-center reference-wrapper">
+                                <h6>Reference </h6>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span> Reletion With Referel </span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span> Reletion With Referel </span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span> Reference Contact No </span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <span> Reference Contact No </span>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- reference  wrapper-->                               
+                        </form>
+                    </div>
+                    <div class="popup-btn-bottom">
+                        <button type="button" class="">Save</button>
+                    </div> 
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- Edit Employee Details End -->
+    <!-- Edit education start -->
+    <section class="edit-eet-section">
+        <div class="modal fade" id="editEducation" tabindex="-1"  aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl ">
+                <div class="modal-content">
+                    <div class="popup-btn-top">
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close"> <i class="fas fa-times"></i> </button>
+                    </div>
+                    <div class="modal-body" >
+                        <form class="eet-form">
+                            <div class="eet-degree">
+                                <h6>Last Achieved Educational Degree</h6>
+                                <!-- Degree name start -->
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2">
+                                            <div class="e-account-single">
+                                                <div class="e-account-text">
+                                                    <p>Degree Name</p>
+                                                </div>                                                           
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="e-account-single">
+                                                <div class="e-account-input">
+                                                    <input class="input-common" type="text" name="ename" placeholder=" " >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                <!-- Degree name end -->  
+                                <!-- University name start -->
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2">
+                                            <div class="e-account-single">
+                                                <div class="e-account-text">
+                                                    <p>University / Institute</p>
+                                                </div>                                                           
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <div class="e-account-single">
+                                                <div class="e-account-input">
+                                                    <input class="input-common" type="text" name="ename" placeholder=" " >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                <!-- University name end -->  
+                                <!-- Passing Year start -->
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2">
+                                            <div class="e-account-single">
+                                                <div class="e-account-text">
+                                                    <p>Passing Year</p>
+                                                </div>                                                           
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <div class="e-account-single">
+                                                <div class="e-account-input">
+                                                    <select class="select-common">
+                                                        <option>2020</option>
+                                                        <option>2019</option>
+                                                        <option>2018</option>
+                                                        <option>2017</option>
+                                                        <option>2016</option>
+                                                        <option>2015</option>
+                                                        <option>2014</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 ">
+                                            <div class="e-account-single">
+                                                <div class="e-account-text">
+                                                    <p>Result</p>
+                                                </div>                                                           
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <div class="e-account-single">
+                                                <div class="e-account-input">
+                                                    <input class="input-common" type="text" name="ename" placeholder=" " >
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 ">
+                                            <div class="e-account-single">
+                                                <div class="e-account-text">
+                                                    <p>Upload Certificate</p>
+                                                </div>                                                           
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <div class="e-account-single">
+                                                <div class="e-account-input">
+                                                    <label for="upload-certificate" class="upload-certificate  input-dc-common"> <i class="fas fa-upload"></i> </label>
+                                                    <input id=upload-certificate type="file" style="display: none; visibility: hidden;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                <!-- Passing year end --> 
+                                 <!-- Major name start -->
+                                 <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Major Name</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-10">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>   
+                                <!-- Major name end -->   
+                                 <!-- Major name start -->
+                                 <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Achieved Reward<span>(If Any)</span></p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6"></div>   
+                                </div>                                                 
+                                <!-- Major name end -->   
+                            </div>
+                            <!-- degree end -->
+                            <div class="eet-training">
+                                <h6>Training</h6>
+                                <!-- training name start -->
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Training Name</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Topic</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- Institute name end -->  
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Institute Name</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Duration</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- Institute name end -->  
+                                <!-- training period start -->  
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Training Period</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Location</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- training period end -->  
+                                <!-- Upload Document start -->  
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Upload Document</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <label for="upload-certificate" class="upload-certificate  input-dc-common"> <i class="fas fa-paperclip"></i> </label>
+                                                <input id=upload-certificate type="file" style="display: none; visibility: hidden;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    </div>
+                                </div> 
+                                <!-- Upload Document end -->
+
+                            </div> 
+                            <div class="eet-experience">
+                                <h6>Experience</h6>
+                                <!-- Company Name start -->  
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Company Name</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 ">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Responsibility</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- Company Name end -->                                 
+                                <!-- experience start -->  
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Experience Area</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Duration</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- experience end -->                                 
+                                <!-- date start -->  
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>From Date</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="date" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>End Date</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="date" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- date end -->                                 
+                                <!-- Company & upload start -->  
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Company Location</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="e-account-single">
+                                            <div class="e-account-text">
+                                                <p>Upload Doc</p>
+                                            </div>                                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="e-account-single">
+                                            <div class="e-account-input">
+                                                <input class="input-common" type="text" name="ename" placeholder=" " >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <!-- Company & upload end -->                                 
+                            </div>                                                                    
+                        </form>
+                    </div>
+                    <div class="popup-btn-bottom">
+                        <button type="button" class="">Save</button>
+                    </div> 
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- Edit education Details End -->
+    <!-- Edit Promotion start -->
+    <section class="edit-Promotion-section">
+        <div class="modal fade" id="editPromotion" tabindex="-1"  aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl ">
+                <div class="modal-content">
+                    <div class="popup-btn-top">
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close"> <i class="fas fa-times"></i> </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="e-promotion-form">
+                            <!-- employe name start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Employee Name</p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- employe name end -->
+                            <!-- Promotion Date start -->  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Promotion Letter Issue Date</p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="date" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Effective Date</p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="date" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <!-- Promotion Date end -->  
+                            <!-- Promotion Designation start -->  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Previous Designation </p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Promoted Designation</p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <!-- Promotion Designation end -->  
+                            <!-- Approval start -->  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Approval Doc Attachment </p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <label for="upload-certificate" class="upload-dc  input-dc-common"> <i class="fas fa-paperclip"></i> </label>
+                                            <input id=upload-certificate type="file" style="display: none; visibility: hidden;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Increment Amount</p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <!-- Approval end -->  
+                            <!-- Previous Basic start -->  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p> Privious Basic </p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p> New Basic </p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <!-- Previous Basic end -->  
+                            <!-- Received salary start -->  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p> Privious Received Salary </p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p> New Gross Salary </p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <!-- Received salary end -->                    
+                        </form>
+                    </div>
+                    <div class="popup-btn-bottom">
+                        <button type="button" class="">Save</button>
+                    </div> 
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- Edit Promotion End -->
+    <!-- Edit Assignment start -->
+    <section class="edit-assignment-section">
+        <div class="modal fade" id="editAssignment" tabindex="-1"  aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl ">
+                <div class="modal-content">
+                    <div class="popup-btn-top">
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close"> <i class="fas fa-times"></i> </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="e-promotion-form">
+                            <!-- Training Program name start -->
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Training Program Name</p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            <!-- Training Program name end -->
+                            <!-- Training Date start -->  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Training Start Date</p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="date" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>End Date</p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="date" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <!-- Training Date end -->  
+                            <!-- Duration start -->  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Duration </p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Location</p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <!-- Duration end -->  
+                            <!-- Approval start -->  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Approval Doc Attachment </p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <label for="upload-certificate" class="upload-dc  input-dc-common"> <i class="fas fa-paperclip"></i> </label>
+                                            <input id=upload-certificate type="file" style="display: none; visibility: hidden;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p>Invite Employee</p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <input class="input-common" type="text" name="ename" placeholder=" " >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <!-- Approval end -->  
+                            <!-- Previous Basic start -->  
+                            <div class="row align-items-center">
+                                <div class="col-lg-2">
+                                    <div class="e-account-single">
+                                        <div class="e-account-text">
+                                            <p> About Training </p>
+                                        </div>                                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="e-account-single">
+                                        <div class="e-account-input">
+                                            <textarea class="textarea-common"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                </div>
+                            </div> 
+                            <!-- Previous Basic end -->                   
+                        </form>
+                    </div>
+                    <div class="popup-btn-bottom">
+                        <button type="button" class="">Save</button>
+                    </div> 
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- Edit Assignment End -->
+
+
+
+
+
+
+<!-- Jquery Core Js -->
+<script src="assets/bundles/libscripts.bundle.js"></script>
+
+<!-- Jquery Page Js -->
+<script src="../js/template.js"></script>
+<!-- font-awesome js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js" integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    function showPreview(event){
+    if(event.target.files.length > 0){
+        var src = URL.createObjectURL(event.target.files[0]);
+        var preview = document.getElementById("img-preview");
+        preview.src = src;
+        preview.style.display = "block";
+    }
+    }
+</script>
+
+</body>
+</html>

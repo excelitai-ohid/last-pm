@@ -1,0 +1,171 @@
+#mytask-layout{
+    .main{
+        .body{
+            .table-responsive{
+                .table-heading{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px 0;
+                    .th-left{                     
+                        display: flex;
+                        align-items: center;
+                        select{
+                            margin-left: 10px;
+                            background: #fff;
+                            border: 1px solid#CCA8CF;
+                            border-radius: 10px;
+                            box-shadow: 0px 3px 6px 0 #7B2182;
+                            outline: none;
+                            width: 100px;
+                            height: 36px;
+                        }
+
+                    }
+                    .th-right{
+                        display: flex;
+                        button{
+                            box-shadow: 0px 3px 9px 0 #7B2182 inset;
+                            background: #FCE8FB;
+                            color: #7B2182;
+                            outline: none;
+                        }
+                        
+                    }
+                }
+                .table{
+                    thead{
+                        tr{
+                            border-bottom:1px solid#7B2182 ;
+                            th{
+                                text-transform: unset;                               
+                                color: #7B2182;
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                            
+                            td{
+                                text-transform: unset;                              
+                                color: #7B2182;
+                                border-bottom:1px solid#7B2182 ;
+                                font-size: 15px;
+
+                                a{
+                                   
+                                    background: #FCE8FB;
+                                    box-shadow: 0px 3px 6px 0 #7B2182 inset;
+                                    padding: 5px 10px;
+                                    border-radius: 5px;
+                                    border: 1px solid#7B2182;
+
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+.edit-work-time{
+    .modal{
+
+        .modal-content{
+            background: #FCE8FB;
+            padding: 50px;
+            border-radius: 30px;
+            border: 2px solid#7B2182;
+            .modal-body{
+                .employee-worktime{
+                    .et-single{
+                        .et-title{
+                            p{
+                                text-align: center;
+                                span{
+                                    display: block;
+                                }
+                            }
+                        }
+                        .et-table{
+                            margin-top: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                            ul{
+                                list-style: none;
+                                li{
+                                    background: #fff;
+                                    width: 200px;
+                                    height: 40px;
+                                    border-radius: 8px;
+                                    margin: 10px 0;
+                                    text-align: center;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    box-shadow: 0px 5px 8px #CCA8CF, 0px 3px 6px #7B2182 inset;
+                                    margin: 0 15px;
+                                    p{
+                                        margin-bottom: 0;
+                                    }
+                                    &:last-child{
+                                        background: none;
+                                        border: none;
+                                        box-shadow: none;
+
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+.edit-attendance{
+    .modal{
+
+        .modal-content{
+            background: #FCE8FB;
+            padding: 50px;
+            border-radius: 30px;
+            border: 2px solid#7B2182;
+            .modal-body{
+                .e-at-single{
+                   display: flex;
+                   flex-direction: column;
+                   width: 100%;
+                   color: #7B2182;
+                   margin: 10px 0;
+                   .form-label{
+                       font-size: 18px;
+                   }
+                   .e-at-field{
+                       height: 40px;
+                       border-radius: 10px;
+                       outline: none;
+                       border: 1px solid#CCA8CF;
+                       background: #fff;
+                       padding: 0 10px;
+                       box-shadow: 0px 3px 6px #CCA8CF inset;
+                   }
+                   .e-at-text-field{
+                       border-radius: 10px;
+                       outline: none;
+                       border: 1px solid#CCA8CF;
+                       box-shadow: 0px 3px 6px #CCA8CF inset;
+                       padding: 10px;
+                   }
+                }
+
+            }
+        }
+    }
+}

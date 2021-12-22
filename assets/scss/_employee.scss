@@ -1,0 +1,272 @@
+#mytask-layout{
+    .main{
+        .body{
+            .tab-content{
+                .tab-pane{
+                    .employee-wrapper{
+                        position: relative;
+                        .employee-wrapper-inner{
+                            width: 90%;
+                            position: absolute;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            h6{
+                                font-size: 18px;
+                                color: #7B2182;
+                            }
+                            .eac-form{
+                                .e-account-single{
+                                    margin: 10px 0;
+                                    .e-account-text{
+                                        span{
+                                            color: #7B2182;
+                                            font-size: 16px;
+                                        }   
+                                    }
+                                    .e-account-input{
+                                        .upload-img{
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;                                      
+                                            svg{
+                                                font-size: 60px;
+                                                color:#CCA8CF;
+                                            }
+                                        }
+                                        .upload-dc{
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: end;
+                                            padding: 0 20px;
+                                            svg{
+                                                font-size: 24px;
+                                                color: #CCA8CF;
+                                            }
+                                        }
+    
+                                    }
+    
+                                    
+                                }
+
+                            }
+                            .ep-form{
+                                .e-account-single{
+                                    margin: 10px 0;
+                                    .e-account-text{
+                                        span{
+                                            color: #7B2182;
+                                            font-size: 16px;
+                                        }   
+                                    }
+                                    .e-account-input{
+                                        .upload-img{
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;                                      
+                                            svg{
+                                                font-size: 60px;
+                                                color:#CCA8CF;
+                                            }
+                                        }
+                                        .upload-dc{
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: end;
+                                            padding: 0 20px;
+                                            svg{
+                                                font-size: 24px;
+                                                color: #CCA8CF;
+                                            }
+                                        }
+    
+                                    }
+    
+                                    
+                                }
+                                .reference-wrapper{
+                                    margin-top: 40px;
+                                    h6{
+                                        color: #7B2182;
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+                            
+                            .eet-form{
+                                .eet-degree{                               
+                                    h6{
+                                        font-size: 18px;
+                                        color: #7B2182;
+                                    }
+                                    .e-account-single{
+                                        margin: 10px 0;
+                                        .e-account-text{
+                                            p{
+                                                font-size: 16px;
+                                                color: #7B2182;
+                                                span{
+                                                    display: block;
+                                                    font-size: 10px;                                                 
+                                                    
+                                                }
+                                            }
+                                        }
+                                        .e-account-input{
+                                            .upload-certificate{
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: end;
+                                                svg{
+                                                    font-size: 24px;
+                                                    color: #CCA8CF;
+                                                    padding: 0 15px;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+                                .eet-training{
+                                    padding-top: 40px;
+                                    h6{
+                                        font-size: 18px;
+                                        color: #7B2182;
+                                    }
+                                    .e-account-single{
+                                        margin: 10px 0;
+                                        .e-account-text{
+                                            p{
+                                                font-size: 16px;
+                                                color: #7B2182;
+                                                span{
+                                                    display: block;
+                                                    font-size: 10px;                                                 
+                                                    
+                                                }
+                                            }
+                                        }
+                                        .e-account-input{
+                                            .upload-certificate{
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: end;
+                                                svg{
+                                                    font-size: 24px;
+                                                    color: #CCA8CF;
+                                                    padding: 0 15px;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+                                .eet-training{
+                                    h6{
+                                        font-size: 18px;
+                                        color: #7B2182;
+                                    }
+                                    .e-account-single{
+                                        margin: 10px 0;
+                                        .e-account-text{
+                                            p{
+                                                font-size: 16px;
+                                                color: #7B2182;
+                                                span{
+                                                    display: block;
+                                                    font-size: 10px;                                                 
+                                                    
+                                                }
+                                            }
+                                        }
+                                        .e-account-input{
+                                            .upload-certificate{
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: end;
+                                                svg{
+                                                    font-size: 24px;
+                                                    color: #CCA8CF;
+                                                    padding: 0 15px;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+                                .eet-experience{
+                                    padding-top: 40px;
+                                    h6{
+                                        font-size: 18px;
+                                        color: #7B2182;
+                                    }
+                                    .e-account-single{
+                                        margin: 10px 0;
+                                        .e-account-text{
+                                            p{
+                                                font-size: 16px;
+                                                color: #7B2182;
+                                                span{
+                                                    display: block;
+                                                    font-size: 10px;                                                 
+                                                    
+                                                }
+                                            }
+                                        }
+                                        .e-account-input{
+                                            .upload-certificate{
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: end;
+                                                svg{
+                                                    font-size: 24px;
+                                                    color: #CCA8CF;
+                                                    padding: 0 15px;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+
+
+                            }
+                            .e-promotion-form{
+                                .e-account-single{
+                                    margin: 10px 0;
+                                    .e-account-text{
+                                        p{
+                                            color: #7B2182;
+                                            font-size: 16px;
+                                        }   
+                                    }
+                                    .e-account-input{                                 
+                                        .upload-dc{
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: end;
+                                            padding: 0 20px;
+                                            svg{
+                                                font-size: 24px;
+                                                color: #CCA8CF;
+                                            }
+                                        }
+    
+                                    }
+    
+                                    
+                                }
+
+                            }
+                            
+
+                            
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

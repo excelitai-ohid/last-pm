@@ -1,0 +1,686 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>:: Excel IT AI :: Projects Management </title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico">  <!-- Favicon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <!-- project css file  -->
+    <link rel="stylesheet" href="assets/css/my-task.style.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<div id="mytask-layout" class="theme-indigo">   
+    <!-- sidebar -->
+    <div class="sidebar px-4 py-4 py-md-5 me-0">
+        <div class="d-flex flex-column h-100">
+            <a href="index.html" class="mb-0 brand-icon">
+                <span class="logo-icon">
+                    <img class="img-fluid" src="assets/images/logo/logoicon.png" alt="logo">
+                </span>
+                <span class="logo-text">Excel IT AI Management</span>
+            </a>
+            <!-- Menu: main ul --> 
+            <ul class="menu-list flex-grow-1 mt-3">
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#dashboard-Components" href="#">
+                        <i class="icofont-home fs-5"></i> <span>Dashboard</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="dashboard-Components">
+                        <li><a class="ms-link" href="index.html"> <span>Hr Dashboard</span></a></li>
+                        <li><a class="ms-link" href="dashboard-single-project.html"> <span>Single Project</span></a></li>
+                    </ul>
+                </li>
+                <li  class="collapsed">
+                    <a class="m-link active"  data-bs-toggle="collapse" data-bs-target="#project-Components" href="#">
+                        <i class="icofont-briefcase"></i><span>Projects</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse show" id="project-Components">
+                        <li><a class="ms-link active" href="projects.html"><span>Projects</span></a></li>
+                        <li><a class="ms-link" href="addproject.html"><span>Add Project</span></a></li>
+                        <li><a class="ms-link" href="viewproject.html"><span>View Project</span></a></li>
+                        <li><a class="ms-link" href="dashboardactivity.html"><span>Project Activity</span></a></li>
+                        
+                    </ul>
+                </li>               
+
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#ticket-Components" href="#"><i
+                            class="icofont-ticket"></i> <span>Tickets</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="ticket-Components">
+                        <li><a class="ms-link" href="ticketlist.html"> <span>Tickets Add</span></a></li>
+                        <li><a class="ms-link" href="ticket-detail.html"> <span>Ticket Detail</span></a></li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#client-Components" href="#"><i
+                            class="icofont-user-male"></i> <span>Our Clients</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="client-Components">
+                        <li><a class="ms-link" href="clients.html"> <span>Clients</span></a></li>
+                        <li><a class="ms-link" href="clientprofile.html"> <span>Client Profile</span></a></li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#emp-Components" href="#"><i
+                            class="icofont-users-alt-5"></i> <span>Employees</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="emp-Components">
+                        <li><a class="ms-link" href="members.html"> <span>Employees(All)</span></a></li>
+                        <li><a class="ms-link" href="employee-profile.html"> <span>Members Profile</span></a></li>
+                    </ul>
+                </li>           
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-Componentsone" href="#"><i class="icofont-ui-calculator"></i> <span>Attendance</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="menu-Componentsone">
+                        <li><a class="ms-link" href="attendance.html"><span>Attendance</span> </a></li>
+                        <li><a class="ms-link" href="employee-reports.html"><span>Report</span> </a></li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#payroll-Components" href="#"><i
+                            class="icofont-users-alt-5"></i> <span>Payroll</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="payroll-Components">
+                        <!-- <li><a class="ms-link" href="salaryslip.html"><span>Employee Salary</span> </a></li> -->
+                        
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#budget-Components" href="#"><i
+                            class="icofont-users-alt-5"></i> <span>Project Budget</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="budget-Components">
+                        <!-- <li><a class="ms-link" href="salaryslip.html"><span>Employee Salary</span> </a></li> -->
+                        
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" href="calander.html">
+                        <i class="icofont-contrast"></i> <span>Official Calendar</span>  </a>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" href="Chat.html">
+                        <i class="icofont-contrast"></i> <span>Chat</span>  </a>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#app-Components" href="Chat.html">
+                        <i class="icofont-contrast"></i> <span>Chat</span> <span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <!-- Menu: Sub menu ul -->
+                </li>
+
+
+               
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- main body area -->
+    <div class="main px-lg-4 px-md-4">
+        <!-- Body: Header -->
+        <div class="header">
+        <nav class="navbar">
+            <div class="container-xxl">
+                <!-- main menu Search-->
+                <div class="main-search">
+                    <div class="search-box">
+                        <input  type="search" placeholder="search here" >
+                        <button> <i class="fas fa-search"></i> </button> 
+                    </div>
+                </div>
+                <!-- header rightbar -->
+                <div class="header-right d-flex align-items-center mr-5 mr-lg-0 ">
+                    <div class="dropdown notifications">
+                        <!-- notification icon -->
+                        <a class="nav-link dropdown-toggle pulse" href="#" role="button" data-bs-toggle="dropdown">
+                            <img src="assets/images/buttonicon/alarmicon.svg">
+                            <span class="notification-icon-bg ">3</span>
+                        </a>
+                        <!-- notification icon end -->
+                        <div id="NotificationsDiv" class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-sm-end p-0 m-0">
+                            <div class="card border-0 w380">
+                                <div class="card-header border-0 p-3">
+                                    <h5 class="mb-0 font-weight-light d-flex justify-content-between">
+                                        <span>Notifications</span>
+                                        <span class="badge text-white">11</span>
+                                    </h5>
+                                </div>
+                                <div class="tab-content card-body">
+                                    <div class="tab-pane fade show active">
+                                        <ul class="list-unstyled list mb-0">
+                                            <li class="py-2 mb-1 border-bottom">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded-circle"
+                                                        src="assets/images/xs/avatar1.jpg" alt="">
+                                                    <div class="flex-fill ms-2">
+                                                        <p class="d-flex justify-content-between mb-0 "><span
+                                                                class="font-weight-bold">Dylan Hunter</span>
+                                                            <small>2MIN</small>
+                                                        </p>
+                                                        <span>Added 2021-02-19 my-Task ui/ux Design
+                                                            <span class="badge bg-success">Review</span></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="py-2 mb-1 border-bottom">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <div class="avatar rounded-circle no-thumbnail">DF</div>
+                                                    <div class="flex-fill ms-2">
+                                                        <p class="d-flex justify-content-between mb-0 "><span
+                                                                class="font-weight-bold">Diane Fisher</span>
+                                                            <small>13MIN</small>
+                                                        </p>
+                                                        <span>Task added Get Started with Fast Cad
+                                                            project</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="py-2 mb-1 border-bottom">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded-circle sm"
+                                                        src="assets/images/xs/avatar3.jpg" alt="">
+                                                    <div class="flex-fill ms-2">
+                                                        <p class="d-flex justify-content-between mb-0 "><span
+                                                                class="font-weight-bold">Andrea Gill</span>
+                                                            <small>1HR</small>
+                                                        </p>
+                                                        <span>Quality Assurance Task Completed</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="py-2 mb-1 border-bottom">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded-circle sm"
+                                                        src="assets/images/xs/avatar5.jpg" alt="">
+                                                    <div class="flex-fill ms-2">
+                                                        <p class="d-flex justify-content-between mb-0 "><span
+                                                                class="font-weight-bold">Diane Fisher</span>
+                                                            <small>13MIN</small>
+                                                        </p>
+                                                        <span>Add New Project for App
+                                                            Developemnt</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="py-2 mb-1 border-bottom">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded-circle sm"
+                                                        src="assets/images/xs/avatar6.jpg" alt="">
+                                                    <div class="flex-fill ms-2">
+                                                        <p class="d-flex justify-content-between mb-0 "><span
+                                                                class="font-weight-bold">Andrea Gill</span>
+                                                            <small>1HR</small>
+                                                        </p>
+                                                        <span>Add Timesheet For Rhinestone
+                                                            project</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="py-2">
+                                                <a href="javascript:void(0);" class="d-flex">
+                                                    <img class="avatar rounded-circle sm"
+                                                        src="assets/images/xs/avatar7.jpg" alt="">
+                                                    <div class="flex-fill ms-2">
+                                                        <p class="d-flex justify-content-between mb-0 "><span
+                                                                class="font-weight-bold">Zoe Wright</span>
+                                                            <small>1DAY</small>
+                                                        </p>
+                                                        <span>Add Calander Event</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a class="card-footer text-center border-top-0" href="#"> View all notifications</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown user-profile ml-2 ml-sm-3 d-flex align-items-center zindex-popover">
+                        <div class="u-info me-2">
+                            <p class="mb-0 text-end line-height-sm "><span class="font-weight-bold">Dylan Hunter</span></p>
+                            <small>Admin Profile</small>
+                        </div>
+                        <a class="nav-link dropdown-toggle pulse p-0" href="#" role="button"
+                            data-bs-toggle="dropdown" data-bs-display="static">
+                            <img class="avatar lg rounded-circle img-thumbnail"
+                                src="assets/images/profile_av.png" alt="profile">
+                        </a>
+                        <div class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-end p-0 m-0">
+                            <div class="card border-0 w280">
+                                <div class="card-body pb-0">
+                                    <div class="d-flex py-1">
+                                        <img class="avatar rounded-circle sm" src="assets/images/profile_av.png"
+                                            alt="profile">
+                                        <div class="flex-fill ms-3">
+                                            <p class="mb-0"><span class="font-weight-bold">Dylan Hunter</span>
+                                            </p>
+                                            <small>Dylan.hunter@gmail.com</small>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <hr class="dropdown-divider border-dark">
+                                    </div>
+                                </div>
+                                <div class="list-group m-2 ">
+                                    <a href="task.html"
+                                        class="list-group-item list-group-item-action border-0 "><i
+                                            class="icofont-tasks fs-5 me-3"></i>My Task</a>
+                                    <a href="members.html"
+                                        class="list-group-item list-group-item-action border-0 "><i
+                                            class="icofont-ui-user-group fs-6 me-3"></i>members</a>
+                                    <a href="ui-elements/auth-signin.html"
+                                        class="list-group-item list-group-item-action border-0 "><i
+                                            class="icofont-logout fs-6 me-3"></i>Signout</a>
+                                    <div>
+                                        <hr class="dropdown-divider border-dark">
+                                    </div>
+                                    <a href="ui-elements/auth-signup.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-contact-add fs-5 me-3"></i>Add personal account</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu toggler -->
+                <button class="navbar-toggler p-0 border-0 menu-toggle order-3" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#mainHeader">
+                    <span class="fa fa-bars"></span>
+                </button>
+
+            </div>
+        </nav>
+        </div>
+
+        <!-- Body: Body -->
+        <div class="body d-flex py-lg-3 py-md-2">
+            <div class="container-xxl">
+                <h1 class="ps-2 pb-3">Projects</h1>
+                <!--project-middle-data start-->
+                <div class="project-middle-data-wrapper container-xxl">
+                    <div class="d-flex row col-md-12">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="project-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">project</a></p>
+                                    <p class="pt-3"><a href="projects.html"> In Prograse</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">232</p>
+                                    <p class="pt-3">Total</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="task-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Tasks</a></p>
+                                    <p class="pt-3"><a href="projects.html"> In Prograse</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">1008</p>
+                                    <p class="pt-3">Deadline Over</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="client-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Client</a></p>
+                                    <p class="pt-3"><a href="projects.html"> Total </a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">102</p>
+                                    <p class="pt-3">Deliverd</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="employee-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Employee</a></p>
+                                    <p class="pt-3"><a href="projects.html"> Total</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">45</p>
+                                    <p class="pt-3">On Work</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="attendance-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Attendance</a></p>
+                                    <p class="pt-3"><a href="projects.html"> Total</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">235</p>
+                                    <p class="pt-3">Absent</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="department-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Department</a></p>
+                                    <p class="pt-3"><a href="projects.html"> Total</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">232</p>
+                                    <p class="pt-3">Running Project</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="payrol-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Payrool</a></p>
+                                    <p class="pt-3"><a href="projects.html"> Salaried</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">232</p>
+                                    <p class="pt-3">Deadline Over</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="ticket-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Tickets</a></p>
+                                    <p class="pt-3"><a href="projects.html"> Total Ticket</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">232</p>
+                                    <p class="pt-3">Pending</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="project-budget-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Project Budget</a></p>
+                                    <p class="pt-3"><a href="projects.html"> Proposal Request</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">232</p>
+                                    <p class="pt-3">Submitted Proposal</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="leave-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Leave</a></p>
+                                    <p class="pt-3"><a href="projects.html"> Request</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">232</p>
+                                    <p class="pt-3">Approved</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="invoice-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Invoices</a></p>
+                                    <p class="pt-3"><a href="projects.html"> Received</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">232</p>
+                                    <p class="pt-3">Due</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="calendar-info content-display">
+                                <div>
+                                    <p class="pb-3"><a href="projects.html">Official Calender</a></p>
+                                    <p class="pt-3"><a href="projects.html"> Event</a></p>
+                                </div>
+                                <div>
+                                    <p class="pb-3">232</p>
+                                    <p class="pt-3">Announcement</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--project-middle-data end-->
+                <div class="project-bottom-data-wrapper row d-flex">
+                    <!--pei chart part start-->
+                    <div class="row project-pie-chart col-sm-12 col-md-12 col-lg-8">
+                        <!--project-status-chart-->
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="project-chart">
+                                <p>Project Status</p>
+                                <canvas id="fillPieChart" width="520" height="250px"></canvas>
+                            </div>
+                        </div>
+                        <!--task-status-chart-->
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="project-chart">
+                                <p>Task Status</p>
+                                <canvas class="" id="doughnutPieChart1" width="520" height="240px"></canvas>
+                            </div>
+
+                        </div>
+                        <!--ticket status chart-->
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="project-chart">
+                                <p>Ticket Status</p>
+                                <canvas id="doughnutPieChart2" width="520" height="240px"></canvas>
+                            </div>
+                        </div>
+                        <!--income vs expense chart-->
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="project-chart">
+                                <p>Income vs Expense</p>
+                                <canvas id="doughnutPieChart3" width="520" height="240px"></canvas>
+                            </div>
+
+                        </div>
+                        <!--leave list-->
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="leave-list">
+                                <h5>Leave List</h5>
+                                <h6>Employee Todays On Leave</h6>
+                                <p><i class="fas fa-arrow-right pe-2"></i>TES 123456 Today On Leave</p>
+                                <p><i class="fas fa-arrow-right pe-2"></i>TES 123456 Today On Leave</p>
+                                <p><i class="fas fa-arrow-right pe-2"></i>TES 123456 Today On Leave</p><br /><br />
+                                <h6>Next Day Leave List</h6>
+                                <p><i class="fas fa-arrow-right pe-2"></i>Miss Riya's leave request approved</p>
+                                <p><i class="fas fa-arrow-right pe-2"></i>Miss Riya's leave request approved</p>
+                                <p><i class="fas fa-arrow-right pe-2"></i>Miss Riya's leave request approved</p>
+                                <br />
+                            </div>
+                        </div>
+                        <!--Event & Announcement-->
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="leave-list">
+                                <h5>Event & Announcement</h5>
+                                <div class="d-flex align-items-center">
+                                    <p><i class="far fa-calendar"></i></p>
+                                    <div class="ps-3">
+                                        <p>50% sale on software</p>
+                                        <p class="small-text">50% sale on CRM</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center pt-3">
+                                    <p><i class="fas fa-bullhorn announce-icon"></i></p>
+                                    <div class="ps-3">
+                                        <p>Resheduling Team Meeting</p>
+                                        <p class="small-text">Meeting will held at 4.00 p.m</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center pt-3">
+                                    <p><i class="fas fa-bullhorn announce-icon"></i></p>
+                                    <div class="ps-3">
+                                        <p>Resheduling Team Meeting</p>
+                                        <p class="small-text">Meeting will held at 4.00 p.m</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center pt-3">
+                                    <p><i class="far fa-calendar"></i></p>
+                                    <div class="ps-3">
+                                        <p>50% sale on software</p>
+                                        <p class="small-text">50% sale on CRM</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center pt-3">
+                                    <p><i class="far fa-calendar"></i></p>
+                                    <div class="ps-3">
+                                        <p>50% sale on software</p>
+                                        <p class="small-text">50% sale on CRM</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center pt-3">
+                                    <p><i class="far fa-calendar"></i></p>
+                                    <div class="ps-3">
+                                        <p>50% sale on software</p>
+                                        <p class="small-text">50% sale on CRM</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center pt-3">
+                                    <p><i class="fas fa-bullhorn announce-icon"></i></p>
+                                    <div class="ps-3">
+                                        <p>Resheduling Team Meeting</p>
+                                        <p class="small-text">Meeting will held at 4.00 p.m</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--pei chart part end-->
+
+                    <!--Activity log part-->
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="activity-log-container">
+                            <h5>Project Activity Log</h5>
+                            <div class="timeline">
+                                <div class="today mb-3">
+                                    <p>Today</p>
+                                </div>
+                                <div class="timeline-container">
+                                    <div class="timeline-icon"></div>
+                                    <div class="timeline-body">
+                                        <p>1 Hours Ago</p>
+                                        <p><i class="fas fa-clock"></i> 10.10 A.M</p>
+                                        <p class="timeline-text">
+                                            <span class="employee-name">Mr. Akkhor</span> edited the milestone of project <span class="employee-name">CRM</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container">
+                                    <div class="timeline-icon"></div>
+                                    <div class="timeline-body">
+                                        <p>1 Hours Ago</p>
+                                        <p><i class="fas fa-clock"></i> 10.10 A.M</p>
+                                        <p>
+                                            <span class="employee-name">Mr. Akkhor</span> edited the milestone of project <span class="employee-name">CRM</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container">
+                                    <div class="timeline-icon"></div>
+                                    <div class="timeline-body">
+                                        <p>1 Hours Ago</p>
+                                        <p><i class="fas fa-clock"></i> 10.10 A.M</p>
+                                        <p>
+                                            <span class="employee-name">Mr. Akkhor</span> edited the milestone of project <span class="employee-name">CRM</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="today mb-3">
+                                    <p>Yesterday</p>
+                                </div>
+                                <div class="timeline-container">
+                                    <div class="timeline-icon"></div>
+                                    <div class="timeline-body">
+                                        <p>1 Hours Ago</p>
+                                        <p><i class="fas fa-clock"></i> 10.10 A.M</p>
+                                        <p>
+                                            <span class="employee-name">Mr. Akkhor</span> edited the milestone of project <span class="employee-name">CRM</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container">
+                                    <div class="timeline-icon"></div>
+                                    <div class="timeline-body">
+                                        <p>1 Hours Ago</p>
+                                        <p><i class="fas fa-clock"></i> 10.10 A.M</p>
+                                        <p>
+                                            <span class="employee-name">Mr. Akkhor</span> edited the milestone of project <span class="employee-name">CRM</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container">
+                                    <div class="timeline-icon"></div>
+                                    <div class="timeline-body">
+                                        <p>1 Hours Ago</p>
+                                        <p><i class="fas fa-clock"></i> 10.10 A.M</p>
+                                        <p>
+                                            <span class="employee-name">Mr. Akkhor</span> edited the milestone of project <span class="employee-name">CRM</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="today mb-3">
+                                    <p>Last Weak</p>
+                                </div>
+                                <div class="timeline-container">
+                                    <div class="timeline-icon"></div>
+                                    <div class="timeline-body">
+                                        <p>1 Hours Ago</p>
+                                        <p><i class="fas fa-clock"></i> 10.10 A.M</p>
+                                        <p>
+                                            <span class="employee-name">Mr. Akkhor</span> edited the milestone of project <span class="employee-name">CRM</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="timeline-container">
+                                    <div class="timeline-icon"></div>
+                                    <div class="timeline-body">
+                                        <p>1 Hours Ago</p>
+                                        <p><i class="fas fa-clock"></i> 10.10 A.M</p>
+                                        <p>
+                                            <span class="employee-name">Mr. Akkhor</span> edited the milestone of project <span class="employee-name">CRM</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Jquery Core Js -->
+<script src="assets/bundles/libscripts.bundle.js"></script>
+
+<!-- Plugin Js-->
+<script src="assets/bundles/apexcharts.bundle.js"></script>
+
+<!-- Jquery Page Js -->
+<!-- <script src="../js/template.js"></script> -->
+<script src="../js/page/hr.js"></script>
+  <!-- Jquery Chart Js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/adminDashBoard.js"></script>
+</body>
+</html> 

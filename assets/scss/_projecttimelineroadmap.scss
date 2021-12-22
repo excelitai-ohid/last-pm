@@ -1,0 +1,226 @@
+#mytask-layout{
+    .main{
+        .body{
+            .project-timeline-roadmap{
+                padding: 100px 0 0 0;
+                .pt-roadmap-wrapper{
+                    .pt-roadmap-bg{
+                        background-image: url(../images/backgrounds/dashboard-projectbg.png);
+                        background-size: 100%;
+                        background-position: center;
+                        height: 650px;
+                        background-repeat: no-repeat;
+                        position: relative;
+
+                        .monthly-timeline-single{
+                            cursor: pointer;
+                            .roadmap-icon{
+                                width: 60px;
+                                height: 130px;
+                            }
+                            .roadmap-p{
+                                color: red;
+                            }
+                            .roadmap-timeline-jan{
+                                position: absolute;
+                                bottom: 0;
+                                left: 223px;
+                                width: 100px;
+                                height: 200px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                               
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-feb{
+                                position: absolute;
+                                bottom: 189px;
+                                left: 236px;
+                                width: 100px;
+                                height: 200px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-march{
+                                position: absolute;
+                                bottom: 340px;
+                                left: 329px;
+                                width: 100px;
+                                height: 200px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-april{
+                                position: absolute;
+                                bottom: 425px;
+                                left: 462px;
+                                width: 100px;
+                                height: 200px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-may{
+                                position: absolute;
+                                bottom: 473px;
+                                left: 579px;
+                                width: 100px;
+                                height: 200px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-june{
+                                position: absolute;
+                                bottom: 521px;
+                                left: 738px;
+                                width: 100px;
+                                height: 200px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-july{
+                                position: absolute;
+                                bottom: 540px;
+                                left: 864px;
+                                width: 100px;
+                                height: 200px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-august{
+                                position: absolute;
+                                top: -106px;
+                                right: 444px;
+                                width: 100px;
+                                height: 200px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-september{
+                                position: absolute;
+                                top: -114px;
+                                right: 317px;
+                                width: 100px;
+                                height: 200px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-october{
+                                position: absolute;
+                                top: -124px;
+                                right: 204px;
+                                width: 100px;
+                                height: 242px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-november{
+                                position: absolute;
+                                top: -125px !important;
+                                right: 79px !important;
+                                width: 97px !important;
+                                height: 232px !important;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                            .roadmap-timeline-december{
+                                position: absolute;
+                                top: -124px;
+                                right: 190px;
+                                width: 100px;
+                                height: 200px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p{
+                                    margin-left: -50px;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}

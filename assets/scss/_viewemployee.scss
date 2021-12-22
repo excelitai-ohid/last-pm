@@ -1,0 +1,18 @@
+#mytask-layout{
+    .main{
+        
+        .body{
+            .employe-view{
+                position: relative;
+                .ev-wrapper{
+                    padding: 30px 0;
+                    position: absolute;
+                    width: 90%;
+                    transform: translateX(-50%);
+                    left: 50%;
+                }
+            }
+        }
+
+    }
+}
